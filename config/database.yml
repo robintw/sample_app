@@ -1,0 +1,19 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: demo_app_prod
+  pool: 5
+  username: robinrails
+  password: PZS421i
+  host: mysql.testrails.rtwilson.com
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: demo_app_prod
+  pool: 5
+  username: robinrails
+  password: PZS421i
+  host: mysql.testrails.rtwilson.com
