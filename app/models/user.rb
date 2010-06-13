@@ -1,4 +1,18 @@
 # == Schema Information
+# Schema version: 20100613012836
+#
+# Table name: users
+#
+#  id                 :integer(4)      not null, primary key
+#  name               :string(255)
+#  email              :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  encrypted_password :string(255)
+#  salt               :string(255)
+#
+
+# == Schema Information
 # Schema version: 20100612182424
 #
 # Table name: users
